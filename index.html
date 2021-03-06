@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>포트폴리오</title>
+    <title>정은지 포트폴리오</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/colorbox.css">
-    <link rel="shortcut icon" href="img/logo_black2_lSh_icon.ico">
+    <link rel="shortcut icon" href="img/eunji0.png">
     
     <script>
 		$(function(){
@@ -32,7 +32,6 @@
             };
 
             $(window).resize(function(){
-                
                 var size = $('body').width();
                 
                 if (size > 1390) {
@@ -46,14 +45,41 @@
                 };
             });
             
-            $(".pf_st_cut>ul>li").click(function(){
+            $(".slide_1 .pf_st_cut>ul>li").click(function(){
                 var i = $(this).index();
 
-                $(".slide .pf_img_container .pf_img_1").css('display', 'none');
-                $(".slide .pf_img_container .pf_img_1").eq(i).css('display','block');
+                $(".slide_1 .pf_img_container .pf_img_1").css('display', 'none');
+                $(".slide_1 .pf_img_container .pf_img_1").eq(i).css('display','block');
                 
-                $(".slide .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
-                $(".slide .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
+                $(".slide_1 .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
+                $(".slide_1 .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
+            });
+            $(".slide_2 .pf_st_cut>ul>li").click(function(){
+                var i = $(this).index();
+
+                $(".slide_2 .pf_img_container .pf_img_1").css('display', 'none');
+                $(".slide_2 .pf_img_container .pf_img_1").eq(i).css('display','block');
+                
+                $(".slide_2 .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
+                $(".slide_2 .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
+            });
+            $(".slide_3 .pf_st_cut>ul>li").click(function(){
+                var i = $(this).index();
+
+                $(".slide_3 .pf_img_container .pf_img_1").css('display', 'none');
+                $(".slide_3 .pf_img_container .pf_img_1").eq(i).css('display','block');
+            
+                $(".slide_3 .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
+                $(".slide_3 .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
+            });
+            $(".slide_4 .pf_st_cut>ul>li").click(function(){
+                var i = $(this).index();
+
+                $(".slide_4 .pf_img_container .pf_img_1").css('display', 'none');
+                $(".slide_4 .pf_img_container .pf_img_1").eq(i).css('display','block');
+            
+                $(".slide_4 .pf_txt_container .mpf_img .pf_img_1").css('display', 'none');
+                $(".slide_4 .pf_txt_container .mpf_img .pf_img_1").eq(i).css('display','block');
             });
         });
 	</script>
@@ -70,8 +96,7 @@
             <ul id="topMenu">
                 <li data-menuanchor="0st"><a href="#0st">HOME</a></li>
                 <li data-menuanchor="1st"><a href="#1st">PROFILE</a></li>
-                <li data-menuanchor="2st"><a href="#2st">INTRODUCTION</a></li>
-                <li data-menuanchor="3st"><a href="#3st">PORTFOLIO</a></li>
+                <li data-menuanchor="2nd"><a href="#2nd">PORTFOLIO</a></li>
             </ul>
         </div>
     </nav>
@@ -122,68 +147,14 @@
                                 
                             </div>
                         </div>
-                        <div class="ct_box">
-                           <div class="ct_inbox">
-                               <div class="ct_title"><h3>CONTACT</h3></div>
-                               <div class="ct_txt">
-                                   <ul>
-                                       <li><img src="img/con_phone.png" alt=""></li>
-                                       <li>010-2894-3867</li>
-                                   </ul>
-                                    <ul>
-                                       <li><img src="img/con_email.png" alt=""></li>
-                                       <li>yashin41@hanmail.net</li>
-                                   </ul>
-                                   <ul>
-                                       <li><img src="img/con_kakao.png" alt=""></li>
-                                       <li>ID: danceee</li>
-                                   </ul>
-                               </div>
-                           </div>
-                            
-                        </div>
-                    </div>
-                </div><!--pr_container-->
-            </div><!--section_box section_box_content-->
-        </div><!--section s1-->
-        <div class="section s2">
-            <div class="section_content section_content1">
-            <h2>PROFILE</h2>
-                <div class="pr_container">
-                    <div class="pr_profile">
-                        <div><img src="img/eunji1.jpg" /></div>
-                        <ul>
-                            <li>정은지 / Eunji Jeong</li>
-                            <li><i class="fas fa-user"></i>영상편집, 기획</li>
-                            <li><i class="fas fa-calendar"></i>1988. 07. 18 (만 32세)</li>
-                            <li><i class="fas fa-map-marker-alt"></i>경기도 부천시 거주</li>
-                            
-                        </ul>
-                    </div>
-                    <div class="right_box">
-                        <div class="pr_box edu_box">
-                            <h3 class="pr_title edu_title">EDUCATION</h3>
-                            <div class="pr_date edu_date">
-                                <div>2020.09 - 2021.03</div>
-                            </div>
-                            <div class="pr_txt edu_txt">
-                                <div>광고콘텐츠 제작</div>
-                                <ul>
-                                    <li>- 교육기관: 방송정보국제교육원 (서울 영등포구)</li>
-                                    <li>- 교육기간: 2020-09-21 ~ 2021.03.17</li>
-                                    <li>- 교육내용 <br>Premiere Pro, Final Cut, After Effect 등 편집 프로그램 
-                            <br>  영상 제작 기획<br> 카메라 구조에 대한 이해<br>  </li>  
-                                </ul>
-                            </div>
-                        </div>
                         <div class="pr_box cer_box">
-                            <h3 class="pr_title cer_title">LICENSE</h3>
+                            <h3 class="pr_title cer_title">YOUTUBE</h3>
                             <div class="pr_date cer_date">
-                                <div>2012.11</div>
+                                <div>2020.07 - ing</div>
                                
                             </div>
                             <div class="pr_txt cer_txt">
-                                <div>자동차 운전 면허 1종 보통</div>
+                                <div>채널 비오티비 운영중</div>
                                 
                             </div>
                         </div>
@@ -200,8 +171,8 @@
                                        <li>yashin41@hanmail.net</li>
                                    </ul>
                                    <ul>
-                                       <li><img src="img/con_kakao.png" alt=""></li>
-                                       <li>ID: danceee</li>
+                                       <li><img src="img/con_ins.png" alt=""></li>
+                                       <li>ID: @lxsx___j</li>
                                    </ul>
                                </div>
                            </div>
@@ -211,11 +182,11 @@
                 </div><!--pr_container-->
             </div><!--section_box section_box_content-->
         </div><!--section s1-->
-        <div class="section s3">
+        <div class="section s2">
             <div class="section_content section_content3">
 <!--               포트폴리오 1-->
                 <div class="slide slide_1">
-                    <h2>영 상 제 목</h2>
+                    <h2>캐트리스 <br>HD 리퀴드 커버리지 파운데이션 리뷰</h2>
                     <div class="pf_img_container">
                         <div class="image">
                             <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
@@ -240,46 +211,46 @@
                         <h3 class="pf_title">영상제목</h3>
                         <div class="mpf_img mpf_img_2">
                                 <div>
-                                    <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/1.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/2.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/3.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/4.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/5.jpg" /></div>
+                                    <div class="pf_img_1" style="display:block;"><img src="img/catrice0.png" /></div>
+                                    <div class="pf_img_1"><img src="img/catrice1.png" /></div>
+                                    <div class="pf_img_1"><img src="img/catrice2.png" /></div>
+                                    <div class="pf_img_1"><img src="img/catrice3.png" /></div>
+                                    <div class="pf_img_1"><img src="img/catrice4.png" /></div>
+                                    <div class="pf_img_1"><img src="img/catrice5.png" /></div>
                                 </div>    
                                 <div class="pf_st_cut">
                                     <ul>
-                                        <li><img src="img/thumb0.jpg"></li>
-                                        <li><img src="img/thumb1.jpg"></li>
-                                        <li><img src="img/thumb2.jpg"></li>
-                                        <li><img src="img/thumb3.jpg"></li>
-                                        <li><img src="img/thumb4.jpg"></li>
-                                        <li><img src="img/thumb5.jpg"></li>
+                                        <li><img src="img/catrice0.png"></li>
+                                        <li><img src="img/catrice1.png"></li>
+                                        <li><img src="img/catrice2.png"></li>
+                                        <li><img src="img/catrice3.png"></li>
+                                        <li><img src="img/catrice4.png"></li>
+                                        <li><img src="img/catrice5.png"></li>
                                     </ul>
                                 </div>
                         </div>
                         <div>
                             <span class="pf_name">프로젝트 명:</span>
-                            <span class="pf_txt">테스트 프로젝트 입니다.</span>
+                            <span class="pf_txt">캐트리스 HD 리퀴드 커버리지 파운데이션 리뷰</span>
                         </div>
                         <div>
                             <span class="pf_name">제작 소요기간: </span>
-                            <span class="pf_txt">2020.9 2주</span>
+                            <span class="pf_txt">2021.3 1주</span>
                         </div>
                         <div>
                             <span class="pf_name">설명:</span>
-                            <span class="pf_txt">영상을 제작해 봅니다.</span>
+                            <span class="pf_txt">동물실험을 하지 않는 착한 브랜드 캐트리스에서 나온 HD 리퀴드 커버리지 파운데이션의 특징을 설명하고 3가지 색상을 비교 발색하는 리뷰 영상 입니다.</span>
                         </div>
                         <div>
                             <span class="pf_name">작업툴:</span>
-                            <span class="pf_txt">여러가지 영상툴을 사용합니다.</span>
+                            <span class="pf_txt">Premiere pro, After Effects, Photoshop</span>
                         </div>
-                        <div class="pf_gosite"><a href="https://www.youtube.com/embed/r4SRKP9RS1U" class="portfolio_btn">CLICK TO PLAY</a></div>    
+                        <div class="pf_gosite"><a href="https://www.youtube.com/embed/A3GgfKPSVYE" class="portfolio_btn">CLICK TO PLAY</a></div>    
                     </div>
                 </div>
 <!--                포트폴리오 2-->
                 <div class="slide slide_2">
-                    <h2>영 상 제 목</h2>
+                    <h2>Youtube 채널 비오티비<br>친동생 결혼식 축가 비하인드</h2>
                     <div class="pf_img_container">
                         <div class="image">
                             <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
@@ -302,48 +273,48 @@
                     </div>
                     <div class="pf_txt_container" >
                         <h3 class="pf_title">영상제목</h3>
-                        <div class="mpf_img mpf_img_2">
+                         <div class="mpf_img mpf_img_2">
                                 <div>
-                                    <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/1.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/2.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/3.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/4.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/5.jpg" /></div>
+                                    <div class="pf_img_1" style="display:block;"><img src="img/botb0.png" /></div>
+                                    <div class="pf_img_1"><img src="img/botb1.png" /></div>
+                                    <div class="pf_img_1"><img src="img/botb2.png" /></div>
+                                    <div class="pf_img_1"><img src="img/botb3.png" /></div>
+                                    <div class="pf_img_1"><img src="img/botb4.png" /></div>
+                                    <div class="pf_img_1"><img src="img/botb5.png" /></div>
                                 </div>    
                                 <div class="pf_st_cut">
                                     <ul>
-                                        <li><img src="img/thumb0.jpg"></li>
-                                        <li><img src="img/thumb1.jpg"></li>
-                                        <li><img src="img/thumb2.jpg"></li>
-                                        <li><img src="img/thumb3.jpg"></li>
-                                        <li><img src="img/thumb4.jpg"></li>
-                                        <li><img src="img/thumb5.jpg"></li>
+                                        <li><img src="img/botb0.png"></li>
+                                        <li><img src="img/botb1.png"></li>
+                                        <li><img src="img/botb2.png"></li>
+                                        <li><img src="img/botb3.png"></li>
+                                        <li><img src="img/botb4.png"></li>
+                                        <li><img src="img/botb5.png"></li>
                                     </ul>
                                 </div>
                         </div>
                         <div>
                             <span class="pf_name">프로젝트 명:</span>
-                            <span class="pf_txt">테스트 프로젝트 입니다.</span>
+                            <span class="pf_txt">결혼식 축가 비하인드</span>
                         </div>
                         <div>
                             <span class="pf_name">제작 소요기간: </span>
-                            <span class="pf_txt">2020.9 2주</span>
+                            <span class="pf_txt">2021.2 2일</span>
                         </div>
                         <div>
                             <span class="pf_name">설명:</span>
-                            <span class="pf_txt">영상을 제작해 봅니다.</span>
+                            <span class="pf_txt">운영중인 유튜브 채널에 업로드한 영상으로 결혼식 축하공연 준비하는 과정을 리얼리티로 담아봤습니다</span>
                         </div>
                         <div>
                             <span class="pf_name">작업툴:</span>
-                            <span class="pf_txt">여러가지 영상툴을 사용합니다.</span>
+                            <span class="pf_txt">Premiere pro, After Effects, Photoshop</span>
                         </div>
-                        <div class="pf_gosite"><a href="https://www.youtube.com/embed/r4SRKP9RS1U" class="portfolio_btn">CLICK TO PLAY</a></div>    
+                        <div class="pf_gosite"><a href="https://www.youtube.com/embed/61B_c1WMwjU"  class="portfolio_btn">CLICK TO PLAY</a></div>    
                     </div>
                 </div>
 <!--                포트폴리오 3-->
                 <div class="slide slide_3">
-                    <h2>영상 제목</h2>
+                    <h2>에프다이어리 UCC 공모전</h2>
                     <div class="pf_img_container">
                         <div class="image">
                             <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
@@ -368,41 +339,102 @@
                         <h3 class="pf_title">영상제목</h3>
                         <div class="mpf_img mpf_img_2">
                                 <div>
-                                    <div class="pf_img_1" style="display:block;"><img src="img/0.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/1.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/2.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/3.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/4.jpg" /></div>
-                                    <div class="pf_img_1"><img src="img/5.jpg" /></div>
+                                    <div class="pf_img_1" style="display:block;"><img src="img/f0.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/f1.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/f2.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/f3.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/f4.jpg" /></div>
+                                    <div class="pf_img_1"><img src="img/f5.jpg" /></div>
                                 </div>    
                                 <div class="pf_st_cut">
                                     <ul>
-                                        <li><img src="img/thumb0.jpg"></li>
-                                        <li><img src="img/thumb1.jpg"></li>
-                                        <li><img src="img/thumb2.jpg"></li>
-                                        <li><img src="img/thumb3.jpg"></li>
-                                        <li><img src="img/thumb4.jpg"></li>
-                                        <li><img src="img/thumb5.jpg"></li>
+                                        <li><img src="img/f0.jpg"></li>
+                                        <li><img src="img/f1.jpg"></li>
+                                        <li><img src="img/f2.jpg"></li>
+                                        <li><img src="img/f3.jpg"></li>
+                                        <li><img src="img/f4.jpg"></li>
+                                        <li><img src="img/f5.jpg"></li>
                                     </ul>
                                 </div>
                         </div>
                         <div>
                             <span class="pf_name">프로젝트 명:</span>
-                            <span class="pf_txt">테스트 프로젝트 입니다.</span>
+                            <span class="pf_txt">F.Diary UCC 공모전 대상 수상작</span>
                         </div>
                         <div>
                             <span class="pf_name">제작 소요기간: </span>
-                            <span class="pf_txt">2020.9 2주</span>
+                            <span class="pf_txt">2020.11 2주</span>
                         </div>
                         <div>
                             <span class="pf_name">설명:</span>
-                            <span class="pf_txt">영상을 제작해 봅니다.</span>
+                            <span class="pf_txt">주인공이 게임창에서 부캐릭터를 선택하는 컨셉으로 섬유향수 F.diary의 향기와 여러가지 기능을 소개하는 1분 광고를 제작했습니다. 에프다이어리에서 주최하는 공모전에서 대상을 수상했습니다. <br><br>편집 40%, 촬영 30%, 기획 20%, 음향 90% 참여했습니다.
+                    </span>
                         </div>
                         <div>
                             <span class="pf_name">작업툴:</span>
-                            <span class="pf_txt">여러가지 영상툴을 사용합니다.</span>
+                            <span class="pf_txt">Premiere pro, After Effects, Photoshop</span>
                         </div>
-                        <div class="pf_gosite"><a href="https://www.youtube.com/embed/r4SRKP9RS1U" class="portfolio_btn">CLICK TO PLAY</a></div>    
+                        <div class="pf_gosite"><a href="https://www.youtube.com/embed/8O9VwF8wBAc" class="portfolio_btn">CLICK TO PLAY</a></div>    
+                    </div>
+                </div>
+                <!--                포트폴리오 4-->
+                <div class="slide slide_4">
+                    <h2>Youtube 썸네일</h2>
+                    <div class="pf_img_container">
+                        <div class="image">
+                            <div class="pf_img_1" style="display:block;"><img src="img/3-0.png" /></div>
+                            <div class="pf_img_1"><img src="img/3-1.png" /></div>
+                            <div class="pf_img_1"><img src="img/3-2.png" /></div>
+                            <div class="pf_img_1"><img src="img/3-3.png" /></div>
+                            <div class="pf_img_1"><img src="img/3-4.png" /></div>
+                            <div class="pf_img_1"><img src="img/3-5.png" /></div>
+                        </div>   
+                        <div class="pf_st_cut">
+                            <ul>
+                                <li><img src="img/thumb0.jpg"></li>
+                                <li><img src="img/thumb1.jpg"></li>
+                                <li><img src="img/thumb2.jpg"></li>
+                                <li><img src="img/thumb3.jpg"></li>
+                                <li><img src="img/thumb4.jpg"></li>
+                                <li><img src="img/thumb5.jpg"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pf_txt_container" >
+                        <h3 class="pf_title">영상제목</h3>
+                         <div class="mpf_img mpf_img_2">
+                                <div>
+                                    <div class="pf_img_1" style="display:block;"><img src="img/3-0.png" /></div>
+                                    <div class="pf_img_1"><img src="img/3-1.png" /></div>
+                                    <div class="pf_img_1"><img src="img/3-2.png" /></div>
+                                    <div class="pf_img_1"><img src="img/3-3.png" /></div>
+                                    <div class="pf_img_1"><img src="img/3-4.png" /></div>
+                                    <div class="pf_img_1"><img src="img/3-5.png" /></div>
+                                </div>    
+                                <div class="pf_st_cut">
+                                    <ul>
+                                        <li><img src="img/3-0.png"></li>
+                                        <li><img src="img/3-1.png"></li>
+                                        <li><img src="img/3-2.png"></li>
+                                        <li><img src="img/3-3.png"></li>
+                                        <li><img src="img/3-4.png"></li>
+                                        <li><img src="img/3-5.png"></li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div>
+                            <span class="pf_name">프로젝트 명:</span>
+                            <span class="pf_txt">Youtube용 썸네일</span>
+                        </div>
+                        <div>
+                            <span class="pf_name">설명:</span>
+                            <span class="pf_txt">그동안 만들었던 Youtube용 썸네일 작업물 입니다.</span>
+                        </div>
+                        <div>
+                            <span class="pf_name">작업툴:</span>
+                            <span class="pf_txt">Photoshop, illustrator</span>
+                        </div>
+                           
                     </div>
                 </div>
             </div>
@@ -415,7 +447,7 @@
 <script>
     new fullpage('#full-page', {
         licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
-        anchors:["0st","1st","2st"],
+        anchors:["0st","1st","2nd"],
         menu:"#topMenu",
         sectionsColor:['#fff', '#eee', '#fff'],
         scrollingSpeed: 1000,
